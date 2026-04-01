@@ -29,8 +29,13 @@ li{
 .flex{
     display: flex;
 }
+
 .flex-1{
     flex: 1;
+}
+
+.container{
+    padding: 50px 0;
 }
 
 .row{
@@ -46,6 +51,10 @@ li{
 section:nth-child(even){
     background-color: #f8f8f8;
     margin-bottom: 20px;
+}
+
+.section__title{
+    margin-bottom: 24px;
 }
 
 /*NAVIGATION BAR*/
@@ -148,12 +157,15 @@ margin-bottom: 28px
     flex: 1;
     display: flex;
     align-items: center;
+    padding: 0 16px;
 }
 
 .about-me__img{
     width: 100%;
     padding-top: 36px;
 }
+
+/*Tech - Stack */
 
 .language__img{
     width: 100%;
